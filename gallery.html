@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery showcasing Salem Getachew's personal hobbies and interests including hiking, running, filmmaking, and astronomy.">
+    <title>Salem's Gallery</title>
+    <style>
+        body {
+            background-color: #FAFAD2; /* Light Golden Rod Yellow for a warm, inviting feel */
+            text-align: center; /* Center text alignment */
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+            flex: 1;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid #000000; /* Black border */
+            color: #000000; /* Black text color */
+            text-decoration: none; /* Remove underline from links */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+        a:hover {
+            background-color: #F8F8F8; /* Light grey background on hover */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        main {
+            flex-grow: 2; /* Allow main content to grow and fill available space */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns for images and descriptions */
+            gap: 10px;
+        }
+        img {
+            width: 100%; /* Responsive image width */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .image-description {
+            background-color: #F0FFF0; /* Honeydew background for descriptions */
+            padding: 10px;
+        }
+        footer {
+            flex: none; /* Keep the footer small */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Salem's Gallery</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="project1.html">Snake Game</a>
+        <a href="project2.html">Pong Game</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <div>
+            <img src="https://i.pinimg.com/736x/b6/3d/60/b63d605e295cc407feb57d12007271a6.jpg" alt="Hiking in the mountains">
+            <div class="image-description">I love hiking and exploring the great outdoors.</div>
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/736x/c5/25/12/c525122d9c629bdd6762ccfe9cccda1c.jpg" alt="Preparing for a half marathon">
+            <div class="image-description">I love to run and will be running my first half marathon this May.</div>
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/736x/15/7f/18/157f1811a61308ee74c7ab709dc94d26.jpg" alt="Filmmaking">
+            <div class="image-description">I enjoy making films in my free time, capturing stories and moments.</div>
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/736x/7c/6c/bb/7c6cbb917e29eb20cafbc2f1cc090610.jpg" alt="Stargazing with a telescope">
+            <div class="image-description">I also love learning about the stars and the cosmos.</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Salem Getachew. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed overview of Salem Getachew's Python Pong Game project, showcasing development insights and technical skills.">
+    <title>Python Pong Game Project</title>
+    <style>
+        body {
+            background-color: #FFF0F5; /* Lavender Blush for a playful yet soft feel */
+            text-align: center; /* Center text alignment */
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+            flex: 1;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid #000000; /* Black border */
+            color: #000000; /* Black text color */
+            text-decoration: none; /* Remove underline from links */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+        a:hover {
+            background-color: #F8F8F8; /* Light grey background on hover */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        main {
+            flex-grow: 2; /* Allow main content to grow and fill available space */
+        }
+        footer {
+            flex: none; /* Keep the footer small */
+        }
+        video, img {
+            max-width: 100%; /* Ensures media is responsive and does not overflow the screen */
+            height: auto; /* Maintains aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Python Pong Game Project</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="project1.html">Snake Game</a>
+        <a href="gallery/photo1.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Project Overview</h2>
+            <p>The Python Pong Game is a recreation of the classic arcade game where two players control paddles to hit a ball back and forth across the screen. The goal is to defeat the opponent by being the first to reach a set score.</p>
+        </section>
+        <section>
+            <h2>Technologies Used</h2>
+            <p>This project was developed entirely in Python, utilizing the Pygame library to handle graphics rendering, event handling, and sound effects.</p>
+        </section>
+        <section>
+            <h2>Challenges and Solutions</h2>
+            <p>Handling the physics of the ball's movement and collision detection with the paddles was challenging. I used mathematical formulas to calculate the ball's trajectory and implemented collision detection algorithms to ensure accurate interactions between the ball and paddles.</p>
+        </section>
+        <section>
+            <h2>Learning Outcomes</h2>
+            <p>Building this game helped me deepen my understanding of game development concepts, especially in the context of Python. I improved my skills in programming logic, physics handling, and using external libraries like Pygame.</p>
+        </section>
+        <section>
+            <h2>Gameplay Screenshot</h2>
+            <img src="images/pong_game_screenshot.jpg" alt="Screenshot of the Python Pong Game">
+        </section>
+        <section>
+            <h2>Gameplay Video</h2>
+            <video controls>
+                <source src="videos/pong_game_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Salem Getachew. All rights reserved.</p>
+    </footer>
+</body>
+</html>
