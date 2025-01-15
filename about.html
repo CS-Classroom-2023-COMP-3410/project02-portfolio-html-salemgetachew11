@@ -14,10 +14,8 @@
             height: 100vh; /* Full viewport height */
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Aligns content vertically center */
-            align-items: center; /* Aligns content horizontally center */
         }
-        header, main, footer {
+        header, nav, main, footer {
             padding: 20px;
             flex: 1;
         }
@@ -35,7 +33,7 @@
         }
         nav {
             display: flex;
-            justify-content: center; /* Centers the navigation link horizontally */
+            justify-content: center;
             flex-wrap: wrap;
         }
         main {
@@ -43,7 +41,6 @@
         }
         footer {
             flex: none; /* Keep the footer small */
-            align-self: center; /* Center the footer content horizontally */
         }
     </style>
 </head>
@@ -54,6 +51,7 @@
 
     <nav>
         <a href="index.html">Home</a>
+
     </nav>
 
     <main>
